@@ -1,0 +1,266 @@
+.carousel-text {
+    text-align: start;
+    padding: 0px 0px 0px 90px;
+    z-index: 500;
+    height: 100vh;
+}
+
+.carousel-image {
+    height: 100vh;
+}
+
+.heading-large {
+    font-size: 3.5rem;
+    font-weight: 600;
+
+}
+
+.heading-medium {
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+
+.heading-small {
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.normal-text-large {
+    font-size: 1rem;
+}
+
+.normal-text-medium {
+    font-size: 0.8rem;
+}
+
+.normal-text-small {
+    font-size: 0.6rem;
+}
+
+
+.footer-banner-img {
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.footer-banner-text {
+    width: 65%;
+}
+
+.footer-banner {
+    margin-bottom: -10px;
+    width: 100%;
+    max-width: 850px;
+    border-radius: 20px;
+    position: relative;
+    height: 180px;
+    padding: 20px;
+    background-color: #01afef;
+}
+
+.whatsapp-icon {
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+    z-index: 11111;
+    cursor: pointer;
+}
+
+.question_banner {
+    width: 90%;
+    border-radius: 30px;
+    min-height: 400px;
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0px 0px 100px;
+}
+
+.gallery-mobileview {
+    display: none;
+}
+
+.gallery-webview {
+    display: block;
+}
+
+.section-about {
+    position: relative;
+    width: 100%;
+    margin: 60px 0;
+    padding: 60px 0;
+    overflow: hidden;
+    background-color: rgba(7, 33, 51, 0.815);
+    background-image: url("/images/ribbon-banners/building.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100% 100%;
+}
+
+.form-control-1 {
+    border-radius: 5px !important;
+    /* margin: 10px; */
+    width: 100%;
+    height: 35px;
+    margin-right: 10px;
+    /* padding: 10px; */
+    font-size: 15px;
+    color: #999;
+    background-color: var(--primary-color-light);
+    border-color: rgba(255, 255, 255, .15);
+}
+
+.banner-area {
+    margin-top: -100px;
+}
+
+.img_footer {
+    width: auto;
+    height: 15px;
+    object-fit: cover;
+}
+
+/* css when device smaller than 400px width */
+@media (max-width: 400px) {
+    html {
+        font-size: 14px;
+
+
+    }
+
+    .content-wrap {
+        padding: 0px !important;
+    }
+
+    .rev-direction {
+        display: flex;
+        flex-direction: column-reverse;
+
+        /* flex-direction: column-reverse; */
+        /* justify-content: center;
+        align-items: center; */
+
+    }
+
+    .quote-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* padding: 0px !important; */
+    }
+
+    .quote-box,
+    .row {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .carousel-text {
+        height: auto !important;
+        padding: 0px 0px 0px 20px;
+    }
+
+    .carousel-image {
+        height: auto;
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 50%; */
+    }
+
+    .banner_font {
+        line-height: 1.2;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .banner-text {
+        margin-top: 35px;
+        height: 20vh !important;
+    }
+
+    .footer_banner_font {
+        font-size: 15px;
+        line-height: 1.1;
+    }
+
+    .footer_banner_font_medium {
+        display: none;
+    }
+
+    .cpb-0 {
+        padding-bottom: 0px !important;
+    }
+
+    .banner-area {
+        height: 90vh;
+        margin-top: 0px;
+    }
+
+    .contact-details {
+        display: none;
+    }
+
+    .footer-banner-img {
+        width: 180px;
+        position: absolute;
+        right: -25px;
+        bottom: 0px;
+    }
+
+    .heading-small {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .heading-medium {
+        font-size: 2rem;
+        font-weight: 600;
+
+    }
+
+    .footer-banner-desc {
+        display: none;
+        width: 80%;
+    }
+
+    .footer-banner {
+        height: 120px;
+        width: 80%;
+    }
+
+    .whatsapp-icon {
+        display: none;
+    }
+
+    .question_banner {
+        width: 100%;
+        min-height: 400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* padding: 140px 0px 0px 30px; */
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 0;
+
+    }
+
+    .gallery-webview {
+        display: none;
+    }
+
+    .gallery-mobileview {
+        display: block;
+    }
+
+
+}

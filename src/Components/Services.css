@@ -1,0 +1,56 @@
+.servicehead{
+    color: #03719A;
+    font-weight: 500;
+}
+.serv{
+    color: #00AEEF;
+    font-weight: 500;
+
+}
+.service-heading{
+    /* left: 2.05%;
+right: 75.55%;
+top: 25.95%;
+bottom: 66.6%; */
+
+font-family: 'Rubik';
+font-style: normal;
+/* font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+letter-spacing: -0.03em; */
+
+color: #005170;
+height: 20px;
+padding-top: 35px;
+}
+
+.service-desc{
+    /* left: 2.05%;
+right: 74.94%;
+top: 33.99%;
+bottom: 57%; */
+
+font-family: 'Rubik';
+/* font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px; */
+line-height: 20px;
+color: #03719A;
+text-align: left;
+width: 280px;
+height: 80px;
+
+}
+.service-card{
+    padding-bottom: 10px;
+}
+
+.country{
+    color: #00AEEF;
+}
+.comments{
+    font-size: 18px;
+    font-weight: 400;
+}
